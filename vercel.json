@@ -11,6 +11,4 @@
       "src": "/(.*)",
       "dest": "server.js"
     }
-  ],
-  "includeFiles": ["sandy.db", "public/**", "views/**"]
-}
+
