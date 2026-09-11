@@ -1,0 +1,19 @@
+{
+  "name": "sandy-private-surprise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private media surprise site with SQLite database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "multer": "^2.0.2"
+  }
+}
