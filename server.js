@@ -183,5 +183,5 @@ app.use('/api', (err, req, res, next) => {
 app.use(express.static(path.join(root, 'public')));
 app.get('*', (_, res) => res.sendFile(path.join(root, 'public', 'index.html')));
 
-const port = Number(process.env.PORT || 3000);
+const port = Number(process.env.PORT || 3002);
 app.listen(port, () => console.log(`Sandy site is running at http://localhost:${port}`));
