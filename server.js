@@ -183,7 +183,7 @@ app.use('/api', (err, req, res, next) => {
 app.use(express.static(path.join(root, 'public')));
 app.get('*', (_, res) => res.sendFile(path.join(root, 'public', 'index.html')));
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`السيرفر يعمل بنجاح على المنفذ ${PORT}`);
